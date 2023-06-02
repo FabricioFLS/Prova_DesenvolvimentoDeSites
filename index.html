@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Café Senai</title>
+    <link rel="stylesheet" href="style.css">  
+    <script src="script.js" defer></script>    
+</head>
+<body>
+    <header>
+        <ul class="navigation">
+            <li><a href="#pagina-inicial">Home</a></li>
+            <li><a href="#">Menu</a></li>            
+            <li><a href="#contato">Contato</a></li>
+        </ul>   
+    </header>   
+        
+    
+    <main class="container">
+        
+        <section class="pagina-inicial" id="pagina-inicial">
+            <div class="carrossel">
+                <div class="carrossel-inner">
+                  <img src="img/carrossel1.jpg" alt="Imagem 1">
+                  <img src="img/carrossel2.jpg" alt="Imagem 2">
+                  <img src="img/carrossel3.jpg" alt="Imagem 3">
+                  <img src="img/carrossel4.jpg" alt="Imagem 4">
+                </div>
+              </div>
+            
+              <div class="carrossel-controls">
+                <button onclick="previousSlide()">Anterior</button>
+                <button onclick="nextSlide()">Próximo</button>
+              </div>
+            
+        </section>
+
+        <section class="products-container">
+            <div class="secao" id="menu" >Menu</div>
+            <div class="card">
+                <div class="product-image" id="img-1"></div>
+                <h3>Café Preto</h3>
+                <p>Café Passado</p>
+                <p>
+                    R$ <span class="bold">12,99</span>
+                </p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="card">
+                <div class="product-image" id="img-2"></div>
+                <h3>Mocchachino</h3>
+                <p>Café com leite e chocolate</p>
+                <p>
+                    R$ <span class="bold">20,99</span>
+                </p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="card">
+                <div class="product-image" id="img-3"></div>
+                <h3>Capucchino Brasileiro</h3>
+                <p>Capucchino adocicado no estilo Brasileiro</p>
+                <p>
+                    R$ <span class="bold">22,99</span>
+                </p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="card">
+                <div class="product-image" id="img-4"></div>
+                <h3>Santenã</h3>
+                <p>Salgado tradicional argentino</p>
+                <p>
+                    R$ <span class="bold">15,99</span>
+                </p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="card">
+                <div class="product-image" id="img-5"></div>
+                <h3>Coxinha</h3>
+                <p>Salgado tradicional Brasileiro</p>
+                <p>
+                    R$ <span class="bold">10,99</span>
+                </p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="card">
+                <div class="product-image" id="img-6"></div>
+                <h3>Misto Quente</h3>
+                <p>Pão com Presunto e Queijo na Chapa</p>
+                <p>
+                    R$ <span class="bold">8,99</span>
+                </p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </section>
+        <section class="secao" id="contato">Contato</section>  
+        <p>Telefone: (48) 3226-0843</p>
+        <p>Email: meucafe@senai.com</p>
+        
+        <p>Localização:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10448.527874819209!2d-48.50202163095259!3d-27.547164142087198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527475e01a8efef%3A0x5b0f13adab8483ec!2sSENAI%20Florian%C3%B3polis%20(CTAI)!5e0!3m2!1spt-BR!2sbr!4v1685660292695!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+    
+    <footer>
+        <p>
+            <span class="bold">Meu Café Senai</span>
+            &copy;2023
+        </p>
+    </footer>
+</body>
+</html>
